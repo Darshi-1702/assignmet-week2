@@ -1,0 +1,62 @@
+
+.one{
+    background-color: grey;
+    border :5px black;
+    padding : 10px;
+    width :31%;
+    float :left;
+    margin : 7px;
+    height: 41vh;
+    position : relative;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15 px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.smallbox{
+    background-color: rgb(203, 151, 151);
+    position :absolute;
+    right:0;
+    top:0;
+    height:5vh;
+    width :10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+     padding :2px;
+     margin-left:20%;
+     margin-top:0%;
+     text-align: center;
+
+}
+.content{
+    clear :right;
+    margin-top:24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+@media only screen and (min-width:768px)and (max-width:991px)
+{.col-sm-6,.col-sm-12{
+    float: left;
+    height:30vh;
+}
+ .col-sm-6{
+    width:45%;
+   
+ }
+ .col-sm-12{
+    width:92%;
+ }
+ 
+    
+
+}
+@media (max-width:766px)
+{
+    .col-xs{
+        width :94%;
+        height :30vh;
+    }
+}
